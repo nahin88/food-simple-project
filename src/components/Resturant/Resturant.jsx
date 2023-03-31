@@ -26,9 +26,9 @@ const Resturant = () => {
       if (addFood) {
         const quantity = storedcart[id];
         addFood.quantity = quantity;
+        savedCart.push(addFood);
       }
       //step 4: push to savedcart
-      savedCart.push(addFood);
     }
     //step 5:
     setCart(savedCart);

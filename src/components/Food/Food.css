@@ -1,0 +1,23 @@
+.food{
+    border: 1px solid salmon;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    height: 500px;
+}
+.food img{
+    width: 208px;
+    height: 208px;
+}
+.btn-cart{
+    background-color: greenyellow;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+.btn-cart:hover{
+    background-color: orange;
+}
